@@ -58,7 +58,7 @@ export default function Box(props) {
     )
 
     return(
-        <div>
+        <StyleBox>
             <input
             type="text"
             placeholder="Produto"
@@ -66,8 +66,8 @@ export default function Box(props) {
             onChange={onChangeBuscaNome}
             />
             <StyleBox>
-            {card}
+               {card}
             </StyleBox>
-        </div>
+        </StyleBox>
     )
 }
