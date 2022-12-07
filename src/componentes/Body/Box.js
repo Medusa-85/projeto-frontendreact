@@ -46,13 +46,6 @@ export default function Box(props) {
                     <img src={produto.imagem} />
                     <p>{produto.item}</p>
                     <p>R$ {produto.valor}</p>
-                    <select>
-                        <option >Escolha o tamanho  </option>
-                        <option value="p" >P</option>
-                        <option value="m" >M</option>
-                        <option value="g" >G</option>
-                    </select>
-                    <br/>
                     <button onClick={() => adicionarProduto(produto)}>Adicionar ao carrinho</button>
                 </StyleCard>
             )
