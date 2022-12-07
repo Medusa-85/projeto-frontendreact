@@ -76,3 +76,22 @@ export const StyleHeader = styled.div`
         color: whitesmoke
     }
 `
+export const StyleFooter = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid #ffffff10 2px;
+    border-radius: 15px;
+    background-color: #ffffff80;
+    width: 98%;
+    height: 100px;
+    margin: auto ;
+
+    svg{
+        margin: 0 1em;
+        font-size: 2em;
+        cursor: pointer
+    }
+`
