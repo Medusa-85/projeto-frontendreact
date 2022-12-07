@@ -44,14 +44,15 @@ export default function Box(props) {
             return (
                 <StyleCard key={produto.id}>
                     <img src={produto.imagem} />
-                    <h2>{produto.item}</h2>
-                    <h3>R$ {produto.valor}</h3>
+                    <p>{produto.item}</p>
+                    <p>R$ {produto.valor}</p>
                     <select>
                         <option >Escolha o tamanho  </option>
                         <option value="p" >P</option>
                         <option value="m" >M</option>
                         <option value="g" >G</option>
                     </select>
+                    <br/>
                     <button onClick={() => adicionarProduto(produto)}>Adicionar ao carrinho</button>
                 </StyleCard>
             )

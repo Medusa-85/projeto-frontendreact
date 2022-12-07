@@ -34,16 +34,18 @@ export default function Carrinho(props) {
     return (
         <StyleCarrinho>
             <h2>CARRINHO</h2>
+            <section>
             {props.listaProdutos.length > 0 ? (props.listaProdutos.map((produto) => (
                 <div key={produto.id}>
-                <h2>{produto.item}</h2>
-                <p>Quantidade: {produto.quantidade} <br/>Total produto: R$ {produto.quantidade*produto.valor} </p>
-                <button onClick={()=>excluirItem(produto)}>Excluir produto</button>
+                    <h3>{produto.item}</h3>
+                    <p>Quantidade: {produto.quantidade} <br/>Total produto: R$ {produto.quantidade*produto.valor} </p>
+                    <button onClick={()=>excluirItem(produto)}>Excluir produto</button>
                 </div>
             ))) 
             :(<div><p>Carrinho vazio</p></div>)
             } 
             <h3>Valor total: R$ {valorCarrinho}</h3>
+            </section>
         </StyleCarrinho>
     )
 

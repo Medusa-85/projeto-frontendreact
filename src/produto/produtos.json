@@ -4,67 +4,67 @@
     "item": "Moletom Astronauta",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/moleton_astronauta.jpg",
-    "valor": 45
+    "valor": 145
     },
     {
     "id": "002",
-    "item": "Camisa Astronauta In Love",
+    "item": "Astronauta In Love",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/camiseta-astronauta-in-love-10f.jpg",
     "valor": 60
     },
     {
     "id": "003",
-    "item": "Camisa 3",
+    "item": "Astrinho",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/camiseta-astronauta-universo-galaxia-d18.jpg",
     "valor": 35
     },
     {
     "id": "004",
-    "item": "Camisa 4",
+    "item": "Astronauta Galáxia",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/galaxia-universo-d15-baby-look.jpg",
     "valor": 45
     },
     {
     "id": "005",
-    "item": "Camisa 5",
+    "item": "Balão Saturno",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/camiseta-astronauta-saturno-universo-planeta-d17.jpg",
     "valor": 45
     },
     {
     "id": "006",
-    "item": "Camisa 6",
+    "item": "Space Folder",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/camiseta-universo-astronauta-foguete-cometa-d09.jpg",  
     "valor": 50
     },
     {
     "id": "007",
-    "item": "Camisa 7",
+    "item": "Astronauta Surf Waves",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/camiseta-astronauta-surf-waves-universo-galaxia-d16.jpg",
     "valor": 75
     },
     {
     "id": "008",
-    "item": "Camisa 8",
+    "item": "Space Cards",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/camiseta-galaxia-universo-et-planeta-astronauta-d11.jpg",
     "valor": 75
     },
     {
     "id": "009",
-    "item": "Camisa 9",
+    "item": "Polvo Cósmico",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/camiseta-polvo-universo-galaxia-estrelas-astros-d13-baby-look-estampada.jpg",
     "valor": 50
     },
     {
     "id": "010",
-    "item": "Camisa 10",
+    "item": "Astronauta Trippy",
     "tamanhos": ["P", "M", "G"],
     "imagem": "/Imagens/camiseta-trippy-astronauta-2b9.jpg",
     "valor": 50
