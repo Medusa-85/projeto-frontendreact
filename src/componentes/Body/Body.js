@@ -1,10 +1,8 @@
 import React, {useState} from "react";
 import Box from "./Box";
-import produtos from "../../produto/produtos.json"
 import Filtros from "./Filter";
 import Carrinho from "./Cart";
 import { StyleBody } from "../../styles";
-// import Card from "../CardProduto/CardProduto";
 
 export default function Body() {
 
@@ -13,12 +11,10 @@ export default function Body() {
     const [valorMax, setValorMax] = useState(Number.POSITIVE_INFINITY)
     const [ordenaValor, setOrdenaValor] = useState("")
     const [listaProdutos, setListaProdutos] = useState([])
-
-    console.log(`Aqui é a lista de produtos ${listaProdutos.length}`)
+    
     
     return(
         <StyleBody>
-            {/* <section> */}
                 <span>
                 <Filtros
                 valorMin={valorMin}
@@ -46,7 +42,6 @@ export default function Body() {
                 setListaProdutos={setListaProdutos}
                 />
                 </span>
-            {/* </section> */}
         </StyleBody>
     )
 }   
