@@ -13,36 +13,40 @@ import { StyleFiltros } from "../../styles";
         props.setOrdenaValor(e.target.value)
     }
     return (
-        <>
         
         <StyleFiltros>
+            <h2>FILTROS</h2>
             <section>
-                
                 <ul>
-                    <h1>FILTROS</h1>
-                    <p>Valor inicial</p>
+                    <h4>Valor inicial 
                     <input 
                     type="number" 
                     placeholder="A partir de"
                     value={props.valorMin}
-                    onChange={onChangeValorMin}
-                    />
-                    <p>Valor limite</p>
+                    onChange={onChangeValorMin}/>
+                    </h4>
+                    
+                    <h4>Valor limite
                     <input 
                     type="number" 
                     placeholder="Até"
                     value={props.valorMax}
                     onChange={onChangeValorMax}/>
-                    <p>Ordenar por valor</p>
+                    </h4>
+                    
+                    <h4>Ordenar por valor
+                    <br/>
                     <select value={props.ordenaValor} onChange={onChangeOrdenaValor}>
-                        <option value="" >Ordenar</option>
-                        <option value="crescente" >Crescente</option>
-                        <option value="decrescente" >Decrescente</option>
+                    <option value="" >Ordenar</option>
+                    <option value="crescente" >Crescente</option>
+                    <option value="decrescente" >Decrescente</option>
                     </select>
+                    </h4>
+                    
                 </ul>
             </section>
         </StyleFiltros>
-        </>
+        
         
     )
  }

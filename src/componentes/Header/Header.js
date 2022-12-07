@@ -1,12 +1,12 @@
 import React from "react";
+import { StyleHeader } from "../../styles";
 
 export default function header(props) {
-    const nomeLoja = "Nebula"
-    
+    const nomeLoja = "NEBULA"
+        
     return (
-        <>
-            <h1>{nomeLoja}</h1>
-            
-        </>
+        <StyleHeader>
+            <h2>{nomeLoja}</h2>    
+        </StyleHeader>
     )
 }
