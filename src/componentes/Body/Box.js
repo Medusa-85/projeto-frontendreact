@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import produtos from "../../produto/produtos.json"
 import { StyleBox, StyleCard } from "../../styles";
 
@@ -8,6 +8,7 @@ export default function Box(props) {
     }
     const adicionarProduto = (item) => {
         const novaListaProdutos = [...props.listaProdutos]
+
         const verificaExistenciaItem = novaListaProdutos.find((produto) => 
             produto.id === item.id 
         )
@@ -17,9 +18,10 @@ export default function Box(props) {
         } else {
             verificaExistenciaItem.quantidade = verificaExistenciaItem.quantidade + 1
         }
-        
         props.setListaProdutos(novaListaProdutos) 
     }
+
+   
 
     const card = produtos
     .filter((produto) => {
@@ -57,7 +59,7 @@ export default function Box(props) {
     )
 
     return(
-        <StyleBox>
+        <section>
             <input
             type="text"
             placeholder="Produto"
@@ -67,6 +69,6 @@ export default function Box(props) {
             <StyleBox>
                {card}
             </StyleBox>
-        </StyleBox>
+        </section>
     )
 }

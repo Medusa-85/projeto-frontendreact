@@ -48,12 +48,10 @@ export const StyleCard = styled.div`
     }
 
     input{
-        height: 100%;
+        height: 50px;
     }
 
 `
-
-
 export const StyleBody = styled.section`
     display: grid;
     grid-template-columns: 1fr 4fr 1.5fr 
