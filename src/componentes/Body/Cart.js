@@ -16,6 +16,7 @@ export default function Carrinho(props) {
             localStorage.setItem("carrinho", listaProdutosString)
         }
     }, [props.listaProdutos])
+    
 
     useEffect (() => {
         if(localStorage.length > 0) {
@@ -24,7 +25,6 @@ export default function Carrinho(props) {
                 const listaProdutosArray = JSON.parse(trazerListaProdutos)
                 props.setListaProdutos(listaProdutosArray)
             }
-            
         }
     }, [])
 

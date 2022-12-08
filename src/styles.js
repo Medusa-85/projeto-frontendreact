@@ -59,6 +59,7 @@ export const StyleFiltros = styled.section`
     flex-direction: column;
     align-items: center;
     margin-left: 15px;
+    margin-right: 15px;
     margin-top: 47px;
        
     h3{
