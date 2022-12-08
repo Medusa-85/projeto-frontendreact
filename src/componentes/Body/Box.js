@@ -1,6 +1,6 @@
 import React from "react";
 import produtos from "../../produto/produtos.json"
-import { StyleBox, StyleCard } from "../../styles";
+import { BuscarProduto, StyleBox, StyleCard } from "../../styles";
 
 export default function Box(props) {
     const onChangeBuscaNome = (e) => {
@@ -53,16 +53,20 @@ export default function Box(props) {
     )
 
     return(
-        <section>
-            <input
-            type="text"
-            placeholder="Produto"
-            value={props.buscaNome}
-            onChange={onChangeBuscaNome}
-            />
+        <>
+            <BuscarProduto>
+                <div>
+                    <input
+                    type="text"
+                    placeholder="  Buscar produto"
+                    value={props.buscaNome}
+                    onChange={onChangeBuscaNome}
+                    />
+                </div>
+            </BuscarProduto>
             <StyleBox>
-               {card}
+                {card}
             </StyleBox>
-        </section>
+        </>
     )
 }

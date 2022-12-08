@@ -15,8 +15,9 @@ import { StyleFiltros } from "../../styles";
     return (
         
         <StyleFiltros>
-            <h2>FILTROS</h2>
+            
             <section>
+                <h3>FILTROS</h3>
                 <ul>
                     <h4>Valor inicial 
                     <input 

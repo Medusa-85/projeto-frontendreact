@@ -33,7 +33,7 @@ export default function Carrinho(props) {
     
     return (
         <StyleCarrinho>
-            <h2>CARRINHO</h2>
+            <h3>CARRINHO</h3>
             <section>
             {props.listaProdutos.length > 0 ? (props.listaProdutos.map((produto) => (
                 <div key={produto.id}>
