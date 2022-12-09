@@ -39,6 +39,17 @@ export const StyleCarrinho = styled.section`
         justify-content:center;
         
     }
+    button{
+        border: solid darkred 1px;
+        border-radius: 10px;
+        background-color: darkred;
+        height: 30px;
+        color: whitesmoke
+    }
+    button:hover{
+        background-color: darkslateblue;
+        border: solid darkslateblue 1px;
+    }
 
 `
 export const StyleBox = styled.section`
@@ -58,9 +69,24 @@ export const StyleFiltros = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 47px;
+
+    input{
+        height: 15px;
+        width: 100px;
+        border-radius: 100px;
+        border: solid darkslateblue 2px;
+    }
+
+    select{
+        height: 20px;
+        width: 100px;
+        border-radius: 100px;
+        border: solid darkslateblue 2px;
+    }
        
     h3{
         display:flex;
@@ -93,6 +119,15 @@ export const StyleCard = styled.div`
     p{
         font-size: 20px
     }
+    button{
+        border: solid lightsteelblue 1px;
+        border-radius: 10px;
+        background-color: lightsteelblue;
+        height: 30px;
+    }
+    button:hover{
+        background-color: lightblue;
+    }
 
 `
 export const StyleBody = styled.section`
@@ -122,13 +157,14 @@ export const StyleFooter = styled.div`
     margin: auto ;
 
     p{
-        font-size: 18px
+        font-size: 18px;
+        color: lightgray    
     }
 
     svg{
         margin: 0 0.9em;
         font-size: 2em;
         cursor: pointer;
-        color: black
+        color: lightgray
     }
 `

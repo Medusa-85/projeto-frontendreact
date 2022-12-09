@@ -19,7 +19,7 @@ import { StyleFiltros } from "../../styles";
             <section>
                 <h3>FILTROS</h3>
                 <ul>
-                    <h4>Valor inicial 
+                    <h4>Valor inicial<br/>
                     <input 
                     type="number" 
                     placeholder="A partir de"
@@ -27,7 +27,7 @@ import { StyleFiltros } from "../../styles";
                     onChange={onChangeValorMin}/>
                     </h4>
                     
-                    <h4>Valor limite
+                    <h4>Valor limite<br/>
                     <input 
                     type="number" 
                     placeholder="Até"
