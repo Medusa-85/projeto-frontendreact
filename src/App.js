@@ -9,11 +9,11 @@ function App() {
 
   return (
     <StyleApp>
-    <section>
-      <Header/>
-      <Body/>
-      <Footer/>
-    </section>
+      <section>
+        <Header/>
+        <Body/>
+        <Footer/>
+      </section>
     </StyleApp>
   );
 }
